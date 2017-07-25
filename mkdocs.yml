@@ -3,7 +3,7 @@ repo_url: https://github.com/ericearl/firmm_docs
 edit_uri: tree/master/docs/
 
 pages:
-- Installation: 'FIRMM_INSTALLATION.md'
-- Usage: 'FIRMM_USAGE.md'
-- Built-in DICOM Streaming Shortcuts: 'README_scanner_dicom_stream_shortcuts.md'
-- Using oideacmdtool and FIRMM with SIEMENS scanners: 'README_ideacmdtool.md'
+- Installation: 'docs/FIRMM_INSTALLATION.md'
+- Usage: 'docs/FIRMM_USAGE.md'
+- Built-in DICOM Streaming Shortcuts: 'docs/README_scanner_dicom_stream_shortcuts.md'
+- Using ideacmdtool with SIEMENS scanners: 'docs/README_ideacmdtool.md'
