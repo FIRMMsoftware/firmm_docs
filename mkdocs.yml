@@ -1,6 +1,4 @@
 site_name: FIRMM
-edit_uri: blob/master/docs/
-
 pages:
 - Installation: 'FIRMM_INSTALLATION.md'
 - Usage: 'FIRMM_USAGE.md'
