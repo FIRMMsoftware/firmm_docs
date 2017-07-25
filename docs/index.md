@@ -1,1 +1,5 @@
-quick test
+pages:
+- Installation: 'FIRMM_INSTALLATION.md'
+- Usage: 'FIRMM_USAGE.md'
+- Built-in DICOM Streaming Shortcuts: 'README_scanner_dicom_stream_shortcuts.md'
+- Using ideacmdtool with SIEMENS scanners: 'README_ideacmdtool.md'
