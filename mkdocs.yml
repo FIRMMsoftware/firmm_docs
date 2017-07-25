@@ -1,6 +1,6 @@
 site_name: FIRMM
 repo_url: https://github.com/ericearl/firmm_docs
-edit_uri: tree/master/docs/
+edit_uri: blob/master/docs/
 
 pages:
 - Installation: 'docs/FIRMM_INSTALLATION.md'
