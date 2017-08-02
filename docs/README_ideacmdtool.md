@@ -1,10 +1,8 @@
 ![Logo](img/FirmmLogo.png)
 
-# Using ideacmdtool on a Siemens scanner to send DICOM data to FIRMM
-
 **NOTE**: *FIRMM and ideacmdtool have been tested on both a Siemens Trio and Prisma*
 
-## Prerequisites for setup
+# Prerequisites for setup
 
 * FIRMM version 2.1 or greater installed on a separate Linux computer that is networked to the scanner host computer. If FIRMM is not yet installed, visit [firmm.us](http://firmm.us) for more info.
 * You will need to know the FIRMM computer IP address, referenced below as `[FIRMM_IP]`
@@ -12,7 +10,7 @@
 * Select an available drive letter to use for mapping on the scanner host computer. In these instructions we use "Y:".
 * Access to the "advanced user" on the Siemens scanner host computer
 
-## Set default values
+# Set default values
 
 The instructions below will set the following defaults for ideacmdtool:
 
@@ -34,7 +32,7 @@ SendIMA OFF
 * Enter `q` (back to main ideacmdtool menu)
 * Enter `q` (exit ideacmdtool)
 
-## Map FIRMM computer Samba share
+# Map FIRMM computer Samba share
 
 Follow these instructions to map the FIRMM computer Samba share to a drive letter on the scanner host computer. We'll use "Y:" in this example, but you can use a different letter.
 
@@ -46,7 +44,7 @@ Follow these instructions to map the FIRMM computer Samba share to a drive lette
 
 <div class="page-break"></div>
 
-## MR session instructions
+# MR session instructions
 
 Follow these steps every time you run an MR session.
 
