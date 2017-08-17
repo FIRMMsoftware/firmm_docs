@@ -14,11 +14,9 @@ Log in or `ssh -X` to your Linux machine of choice (Ubuntu 14+ or Redhat 7+ reco
 
 Get FIRMM's installation package by either of the following two methods:
 
-## 1. Web browser method
+**1. Web browser method**
 
-- Point your browser to **[the NITRC page for FIRMM](http://www.nitrc.org/projects/firmm)**, click "Downloads" on the left-hand menu and download the "offline install package" zip file for the release of your choice.
-- Also make sure to download any relevant USAGE or README PDFs.
-- Make a new directory and move the .zip file there. Example:
+Point your browser to **[the NITRC page for FIRMM](http://www.nitrc.org/projects/firmm)**, click "Downloads" on the left-hand menu and download the "offline install package" zip file for the release of your choice.  Make a new directory and move the .zip file there. Example:
 
 ```
 cd ~/Downloads
@@ -26,17 +24,16 @@ mkdir firmm
 mv firmm-v2.1.0_offline_install_package.zip firmm/
 ```
 
-- Change to the directory where you moved the .zip file and unzip it. Example:
+Change to the directory where you moved the .zip file and unzip it. Example:
 
 ```
 cd firmm
 unzip firmm-v2.1.0_offline_install_package.zip
 ```
 
+**2. `wget` method**
 
-## 2. `wget` method
-
-Log in or `ssh -X` to your Linux machine of choice (Ubuntu 14+ or Redhat 7+ recommended).  Make a new directory and use `wget` to grab the install package from there. Example:
+Make a new directory and use `wget` to grab the install package from there. Example:
 
 ```
 cd ~
@@ -45,7 +42,7 @@ cd firmm
 wget http://firmm.projects.nitrc.org/firmm-v2.1.0_offline_install_package.zip
 ```
 
-- Unzip the file. Example:
+Unzip the file. Example:
 
 ```
 unzip firmm-v2.1.0_offline_install_package.zip
