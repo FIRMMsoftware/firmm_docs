@@ -9,8 +9,8 @@ Any DICOMs used by FIRMM will be automatically deleted from the FIRMM computer a
 To use FIRMM effectively, DICOMs need to be transferred as fast as possible to the incoming DICOM directory on the FIRMM host computer.
 
 - **SIEMENS:** Set up and run `ideacmdtool` or the FIRMM start/stop shortcuts on your scanner.  Instructions for this are available in our ideacmdtool README or shortcuts README, respectively.
-- **GE:** Please [email us](mailto:FIRMMsoftware@gmail.com) for help.
-- **PHILIPS:** Please [email us](mailto:FIRMMsoftware@gmail.com) for help.
+- **GE:** Please [email us](mailto:info@firmm.io) for help.
+- **PHILIPS:** Please [email us](mailto:info@firmm.io) for help.
 
 When the FIRMM installation script is run, it makes two Windows batch files on the FIRMM machine. They are called `FIRMM_session_start.bat` and `FIRMM_session_stop.bat`. Getting these to the scanner from the FIRMM host PC will allow SIEMENS users to use DICOM streaming start/stop shortcuts.  Read our shortcuts README for more information.
 
