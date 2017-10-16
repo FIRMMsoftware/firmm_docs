@@ -28,7 +28,7 @@ SendIMA OFF
 * Enter `4` (Online export defaults)
 * Enter `1` (Target port), enter `-1`
 * Enter `3` (Target path), enter `y:` (or whatever drive letter you want to use)
-* Enter `8` (SendBuffered OFF)
+* Enter `4` (SendBuffered OFF)
 * Enter `q` (back to main ideacmdtool menu)
 * Enter `q` (exit ideacmdtool)
 
