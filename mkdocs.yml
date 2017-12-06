@@ -6,3 +6,4 @@ pages:
 - 'Built-in DICOM Streaming Shortcuts': 'README_scanner_dicom_stream_shortcuts.md'
 - 'Using ideacmdtool with SIEMENS scanners': 'README_ideacmdtool.md'
 - 'Frequently Asked Questions (FAQ)': 'FAQ.md'
+- 'Release Notes': 'RELEASE_NOTES.md'
