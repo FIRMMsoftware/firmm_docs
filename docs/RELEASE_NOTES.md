@@ -1,7 +1,5 @@
 ![Logo](img/FirmmLogo.png)
 
-# Release Notes
-
 ## v2.1.3 (2017-10-19)
 * **BUGFIX:** fixed incorrect FD for second frame of each series
 
