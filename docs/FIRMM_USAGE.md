@@ -118,3 +118,32 @@ The progress to criteria section shows how much good time has been acquired unde
 ![Scan information example](img/scan_information.png)
 
 The scan information section displays information about dicom location and the patient (This example has been anonymized).
+
+# Settings
+
+**Changing Settings**
+
+EXAMPLE SCREENSHOT OF TABS BAR TO GO HERE
+
+FIRMM settings can be adjusted in the settings panel. You can access this panel by selecting the settings tab next in the FIRMM tab bar.
+
+EXAMPLE OF SETTINGS PANEL TO GO HERE
+
+FIRMM currently supports the following user settings:
+
+- FD thresholds (Low/Mid/High Thresholds)
+- Criterion Time
+- Brain Radius\*
+- Respiratory Filter\* (Min/Max Breaths per Minute)
+
+\*These settings are only adjustable before starting a session. For settings to apply to a running session, you must restart the session.
+
+After changing your settings, you apply your changes by selecting the `Apply Settings` button.
+
+EXAMPLE OF APPLY SETTINGS BUTTON GOES HERE
+
+**Saving/Loading Settings Profiles**
+
+You can save your current settings with the `Save Profile` button. This will allow you to save your settings for later retrieval. **Note: You must `Apply Settings` before saving a profile in order for changes to take effect.**
+
+EXAMPLE OF SAVE PROFILE BUTTON AND MODAL POPUP
