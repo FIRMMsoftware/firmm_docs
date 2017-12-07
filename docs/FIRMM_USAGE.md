@@ -57,7 +57,7 @@ If you confirm the patient ID is correct for the current session, you may contin
 
 (For more about this, see "Why does FIRMM occasionally start processing a previous session when I start it?" in the FAQ section of this document.)
 
-**Loading JSONs**
+# Loading JSONs
 
 As well as using FIRMM to display real-time scan information, you can also use it to load a visual representation of previous scans. As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v2.1.0/django/complete_JSONs` after FIRMM stops.
 
@@ -69,6 +69,8 @@ You can click the "load previous scan" button to load any JSON currently in the 
 
 <div class="page-break"></div>
 
+# Components of FIRMM
+
 **FIRMM in action**
 
 ![FIRMM in action](img/FIRMM_action_screen.png)
@@ -76,8 +78,6 @@ You can click the "load previous scan" button to load any JSON currently in the 
 This is a screenshot of FIRMM in use.  Following are breakdowns of each plot and table.
 
 <div class="page-break"></div>
-
-# Components of FIRMM
 
 **Graph of Framewise Displacement Over Time**
 
