@@ -33,15 +33,15 @@ When FIRMM starts, a web browser should open and you should see a screen like th
 
 <div class="page-break"></div>
 
-### Using FIRMM
+##### Using FIRMM
 
 Once open, you need to click the start button at the top right of the FIRMM GUI window to begin monitoring for DICOMs.
 
-### FIRMM start button
+##### FIRMM start button
 
 ![FIRMM start button](img/FIRMM_start_button.png)
 
-### FIRMM beginning monitoring
+##### FIRMM beginning monitoring
 
 ![FIRMM after being started](img/FIRMM_started.png)
 
@@ -57,7 +57,7 @@ If you confirm the patient ID is correct for the current session, you may contin
 
 (For more about this, see "Why does FIRMM occasionally start processing a previous session when I start it?" in the FAQ section of this document.)
 
-### Loading JSONs
+##### Loading JSONs
 
 As well as using FIRMM to display real-time scan information, you can also use it to load a visual representation of previous scans. As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v2.1.0/django/complete_JSONs` after FIRMM stops.
 
@@ -69,7 +69,7 @@ You can click the "load previous scan" button to load any JSON currently in the 
 
 <div class="page-break"></div>
 
-### FIRMM in action
+##### FIRMM in action
 
 ![FIRMM in action](img/FIRMM_action_screen.png)
 
@@ -79,7 +79,7 @@ This is a screenshot of FIRMM in use.  Following are breakdowns of each plot and
 
 # Components of FIRMM
 
-### Graph of Framewise Displacement Over Time
+##### Graph of Framewise Displacement Over Time
 
 ![Framewise displacement graph example](img/framewise_displacement.png)
 
@@ -87,7 +87,7 @@ This plot shows the Framewise Displacement (FD) in millimeters as a function of 
 
 By default, if there are more than five minutes' worth of data, only the last five minutes are displayed for maximum readability. The toggle buttons just above the framewise displacement graph allow you to switch from displaying the last five minutes of data to displaying all data and back.
 
-### Summary table
+##### Summary table
 
 ![Summary table example](img/summary_table.png)
 
@@ -95,25 +95,25 @@ The summary table provides summary data on each series with information from the
 
 <div class="page-break"></div>
 
-### Predicted Duration to Scan Criteria table
+##### Predicted Duration to Scan Criteria table
 
 ![Predicted Duration to Scan Criteria table example](img/predicted_table.png)
 
 The Predicated Duration to Scan Criteria table uses the data that has been collected so far to predict how long it will take to reach criteria for the three FD thresholds.
 
-### Collected Low Movement Frames table
+##### Collected Low Movement Frames table
 
 ![Collected Low Movement Frames table example](img/collected_low_movement_table.png)
 
 The Collected Low Movement Frames table shows how much "good" time and how many "good/bad" frames have been acquired since the beginning of the scan.
 
-### Graph of Progress to Criteria
+##### Graph of Progress to Criteria
 
 ![Progress to criteria example](img/progress_to_criteria.png)
 
 The progress to criteria section shows how much good time has been acquired under each FD threshold. A green check mark will appear for each FD threshold when the criteria line has been met or surpassed for that threshold. The criteria time will appear at 12.5 minutes by default, but can be customized by generating a new settings file.
 
-### Scan information
+##### Scan information
 
 ![Scan information example](img/scan_information.png)
 
