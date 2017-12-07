@@ -41,30 +41,17 @@ When FIRMM starts, a web browser should open and you should see a screen like th
 
 # Usage
 
-Once open, you need to click the start button at the top right of the FIRMM GUI window to begin monitoring for DICOMs.
-
-## FIRMM start button
+## Start Options
+In the upper right of the browser, there is a set of buttons:
 
 ![FIRMM start button](img/FIRMM_start_button.png)
 
-## FIRMM beginning monitoring
+You can click the start button to process a current DICOM series or click the "Load previous scan button" to process an old JSON
 
-![FIRMM after being started](img/FIRMM_started.png)
-
-Once FIRMM has been started, it will process each sequence with `epf` and `2d1` in the series' sequence name and without `MoCo` or `PMU` in the series description.
-
-<div class="page-break"></div>
-
-When FIRMM first begins processing, a dialog box will appear asking you to check that the patient ID on the FIRMM screen is correct.
-
-![Dialog asking user to confirm patient ID](img/popup.png)
-
-If you confirm the patient ID is correct for the current session, you may continue. If the subject ID that appears on FIRMM's display is not correct for this session, you will be asked to restart FIRMM after some DICOMs have been sent for your current session.
-
-(For more about this, see "Why does FIRMM occasionally start processing a previous session when I start it?" in the FAQ section of this document.)
+## Loading an Current Scan
+Once you press start, a list of potential folders will appear. Select the folder you want to monitor, and press "Run" to launch FIRMM
 
 ## Loading JSONs
-
 As well as using FIRMM to display real-time scan information, you can also use it to load a visual representation of previous scans. As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v2.1.0/django/complete_JSONs` after FIRMM stops.
 
 You can click the "load previous scan" button to load any JSON currently in the `complete_JSONs` directory.
@@ -72,6 +59,22 @@ You can click the "load previous scan" button to load any JSON currently in the 
 **Note: the JSONs created by FIRMM are stored in the `complete_JSONs` folder indefinitely unless moved by the user. As well as motion information, these JSONs contain information from the DICOM headers such as the Patient ID and Patient Name entered by the scan operator during patient registration. Users are responsible for restricting access to the JSONs created by FIRMM as appropriate.**
 
 ![Load previous scan button](img/FIRMM_start_button.png)
+
+<div class="page-break"></div>
+
+## FIRMM Folder Selection
+If you press the start button, you will be shown a list of possible folders as shown below:
+
+(Need to change this picture when the final directory watcher is done)
+![FIRMM start button](img/FIRMM_start_button.png)
+
+Once you select the appropriate folder and hit "Run", FIRMM will begin processing
+
+## FIRMM beginning monitoring
+
+![FIRMM after being started](img/FIRMM_started.png)
+
+Once FIRMM has been started, it will process each sequence with `epf` and `2d1` in the series' sequence name and without `MoCo` or `PMU` in the series description.
 
 <div class="page-break"></div>
 
