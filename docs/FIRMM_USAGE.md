@@ -49,7 +49,7 @@ In the upper right of the browser, there is a set of buttons:
 You can click the start button to process a current DICOM series or click the "Load previous scan button" to process an old JSON
 
 ## Loading an Current Scan
-Once you press start, a list of potential folders will appear. Select the folder you want to monitor, and press "Run" to launch FIRMM
+Once you press start, a list of potential folders will appear. Select the folder you want to monitor, and press "Run" to start processing
 
 ## Loading JSONs
 As well as using FIRMM to display real-time scan information, you can also use it to load a visual representation of previous scans. As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v2.1.0/django/complete_JSONs` after FIRMM stops.
@@ -61,14 +61,6 @@ You can click the "load previous scan" button to load any JSON currently in the 
 ![Load previous scan button](img/FIRMM_start_button.png)
 
 <div class="page-break"></div>
-
-## FIRMM Folder Selection
-If you press the start button, you will be shown a list of possible folders as shown below:
-
-(Need to change this picture when the final directory watcher is done)
-![FIRMM start button](img/FIRMM_start_button.png)
-
-Once you select the appropriate folder and hit "Run", FIRMM will begin processing
 
 ## FIRMM beginning monitoring
 
