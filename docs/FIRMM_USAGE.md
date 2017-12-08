@@ -58,6 +58,8 @@ You can click the "load previous scan" button to load any JSON currently in the 
 
 **Note: the JSONs created by FIRMM are stored in the `complete_JSONs` folder indefinitely unless moved by the user. As well as motion information, these JSONs contain information from the DICOM headers such as the Patient ID and Patient Name entered by the scan operator during patient registration. Users are responsible for restricting access to the JSONs created by FIRMM as appropriate.**
 
+![Load previous scan button](img/FIRMM_start_button.png)
+
 <div class="page-break"></div>
 
 ## FIRMM beginning monitoring
