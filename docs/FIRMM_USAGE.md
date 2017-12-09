@@ -33,7 +33,7 @@ When FIRMM starts, a web browser should open and you should see a screen like th
 
 <div class="page-break"></div>
 
-# Start Options
+# Start Processing
 FIRMM can be run on a current scan or on a previous scan.
 In the upper right of the browser, you should see the following set of buttons:
 
@@ -41,21 +41,21 @@ In the upper right of the browser, you should see the following set of buttons:
 
 You can click the start button to process a current DICOM series or click the "Load Previous Scan" button to load a visual representation of a previous scan.
 
-## Loading an Current DICOM Series
+**Loading an Current DICOM Series**
 Once you press start, a list of potential folders will appear, as shown below.
 
 PUT FOLDER SELECTION PICTURE HERE
 
 Select the appropriate folder, and press the "Run" button to start processing.
 
-## Loading a Previous JSON
+**Loading a Previous JSON**
 As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v2.1.0/django/complete_JSONs` after FIRMM stops. By clicking the "Load Previous Scan" button you can load any JSON currently in the `complete_JSONs` directory.
 
 **Note: the JSONs created by FIRMM are stored in the `complete_JSONs` folder indefinitely unless moved by the user. As well as motion information, these JSONs contain information from the DICOM headers such as the Patient ID and Patient Name entered by the scan operator during patient registration. Users are responsible for restricting access to the JSONs created by FIRMM as appropriate.**
 
 <div class="page-break"></div>
 
-## FIRMM beginning monitoring
+**FIRMM beginning monitoring**
 
 ![FIRMM after being started](img/FIRMM_started.png)
 
