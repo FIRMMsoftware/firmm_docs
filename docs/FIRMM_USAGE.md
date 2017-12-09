@@ -7,7 +7,7 @@ Version 2.1 written by Eric Earl (OHSU), Jon Koller (WUSM), Rachel Klein (OHSU),
 * If you're already using the system where FIRMM was installed, make sure to switch to the `firmmproc` account created during installation.
 * If you are on a different system, `ssh -X` to the FIRMM system as `firmmproc`.
 
-# Starting FIRMM
+# Launching FIRMM
 
 Typing `FIRMM` in a terminal will start FIRMM:
 
@@ -33,22 +33,23 @@ When FIRMM starts, a web browser should open and you should see a screen like th
 
 <div class="page-break"></div>
 
-**Using FIRMM**
-
-## Start Options
-In the upper right of the browser, there is a set of buttons:
+#Start Options
+FIRMM can be run on a current scan or on a previous scan.
+In the upper right of the browser, you should see the following set of buttons:
 
 ![FIRMM start button](img/FIRMM_start_button.png)
 
-You can click the start button to process a current DICOM series or click the "Load previous scan button" to process an old JSON
+You can click the start button to process a current DICOM series or click the "Load Previous Scan" button to load a visual representation of a previous scan.
 
-## Loading an Current Scan
-Once you press start, a list of potential folders will appear. Select the folder you want to monitor, and press "Run" to start processing
+## Loading an Current DICOM Series
+Once you press start, a list of potential folders will appear, as shown below.
 
-## Loading JSONs
-As well as using FIRMM to display real-time scan information, you can also use it to load a visual representation of previous scans. As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v2.1.0/django/complete_JSONs` after FIRMM stops.
+PUT FOLDER SELECTION PICTURE HERE
 
-You can click the "load previous scan" button to load any JSON currently in the `complete_JSONs` directory.
+Select the appropriate folder, and press the "Run" button to start processing.
+
+## Loading a Previous JSON
+As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v2.1.0/django/complete_JSONs` after FIRMM stops. By clicking the "Load Previous Scan" button you can load any JSON currently in the `complete_JSONs` directory.
 
 **Note: the JSONs created by FIRMM are stored in the `complete_JSONs` folder indefinitely unless moved by the user. As well as motion information, these JSONs contain information from the DICOM headers such as the Patient ID and Patient Name entered by the scan operator during patient registration. Users are responsible for restricting access to the JSONs created by FIRMM as appropriate.**
 
