@@ -33,7 +33,7 @@ When FIRMM starts, a web browser should open and you should see a screen like th
 
 <div class="page-break"></div>
 
-#Start Options
+# Start Options
 FIRMM can be run on a current scan or on a previous scan.
 In the upper right of the browser, you should see the following set of buttons:
 
