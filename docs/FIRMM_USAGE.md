@@ -86,6 +86,8 @@ By default, if there are more than five minutes' worth of data, only the last fi
 
 The summary table provides summary data on each series with information from the DICOM headers and information from FD calculations and thresholding.  These include: the Series Number, Series Description, frame (aka. DICOM) count, Repetition Time (TR), the total time acquired per series, then three entries for the "good" time based on `TR*(frame count < low, middle, and high FD thresholds)`. If the default settings file is used, these thresholds will be 0.2mm, 0.3mm, and 0.4mm, respectively. To customize them, generate a new settings file. Each new series is added to the top of the table and displayed in real time.
 
+The checkboxes to the left of each series in the summary table allow the user to de-select series that should not be included in plots and predictions.
+
 <div class="page-break"></div>
 
 **Predicted Duration to Scan Criteria table**
