@@ -123,11 +123,11 @@ The scan information section displays information about dicom location and the p
 
 **Changing Settings**
 
-EXAMPLE SCREENSHOT OF TABS BAR TO GO HERE
+![Tabs Bar example](img/tabsbar.png)
 
 FIRMM settings can be adjusted in the settings panel. You can access this panel by selecting the settings tab next in the FIRMM tab bar.
 
-EXAMPLE OF SETTINGS PANEL TO GO HERE
+![Settings Panel example](img/settings.png)
 
 FIRMM currently supports the following user settings:
 
@@ -140,10 +140,12 @@ FIRMM currently supports the following user settings:
 
 After changing your settings, you apply your changes by selecting the `Apply Settings` button.
 
-EXAMPLE OF APPLY SETTINGS BUTTON GOES HERE
-
 **Saving/Loading Settings Profiles**
 
 You can save your current settings with the `Save Profile` button. This will allow you to save your settings for later retrieval. **Note: You must `Apply Settings` before saving a profile in order for changes to take effect.**
 
-EXAMPLE OF SAVE PROFILE BUTTON AND MODAL POPUP
+![Save Profile example](img/save.png)
+
+Any saved settings profile can be loaded by selecting the `Load Profile` button.
+
+![Loading Profile example](img/load.png)
