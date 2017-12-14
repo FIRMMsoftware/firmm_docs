@@ -7,7 +7,7 @@ Version 2.1 written by Eric Earl (OHSU), Jon Koller (WUSM), Rachel Klein (OHSU),
 * If you're already using the system where FIRMM was installed, make sure to switch to the `firmmproc` account created during installation.
 * If you are on a different system, `ssh -X` to the FIRMM system as `firmmproc`.
 
-# Launching FIRMM
+# Launch FIRMM
 
 Typing `FIRMM` in a terminal will start FIRMM:
 
@@ -37,7 +37,7 @@ When FIRMM starts, a web browser should open and you should see a screen like th
 FIRMM can be run on a current scan or on a previous scan.
 In the upper right of the browser, you should see the following set of buttons:
 
-![FIRMM start button](img/FIRMM_start_button.png)
+![FIRMM start button](img/FIRMM_start_button_v3.png)
 
 You can click the start button to process a current DICOM series or click the "Load Previous Scan" button to load a visual representation of a previous scan.
 
@@ -45,7 +45,9 @@ You can click the start button to process a current DICOM series or click the "L
 
 Once you press start, a list of potential folders will appear, as shown below.
 
-PUT FOLDER SELECTION PICTURE HERE
+![FIRMM folder selection](img/FIRMM_FolderSelection.png)
+
+The folders should be listed in chronological order, with the most recently modified folder at the top of the list. If you do not see the folder you are expecting, you can hit the "Refresh" button. This will tell FIRMM to search again for folders, so any additional folders (created after "Start" was pressed) will now show up in the list.     
 
 Select the appropriate folder, and press the "Run" button to start processing.
 
