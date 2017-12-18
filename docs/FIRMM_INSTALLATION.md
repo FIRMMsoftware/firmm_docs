@@ -55,16 +55,16 @@ There are two different ways to run the install file depending on your distribut
 For Debian/Ubuntu:
 
 ```
-sudo ./FIRMM_basic_install.sh
+sudo ./FIRMM_install.sh
 ```
 
 For Redhat/CentOS:
 
 ```
 su root
-./FIRMM_basic_install.sh
+./FIRMM_install.sh
 ```
 
-The installation script will detect whether Docker and Samba are installed and install them if needed. Alternatively, the user can install Docker and Samba first, then run FIRMM_basic_install.sh.
+The installation script will detect whether Docker and Samba are installed and install them if needed. Alternatively, the user can install Docker and Samba first, then run FIRMM_install.sh.
 
-![FIRMM basic install script](img/basic_install.png)
+![FIRMM install script](img/basic_install.png)
