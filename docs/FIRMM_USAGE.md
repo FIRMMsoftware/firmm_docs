@@ -1,6 +1,6 @@
 ![Logo](img/FirmmLogo.png)
 
-Written by Eric Earl (OHSU), Jon Koller (WUSM), Rachel Klein (OHSU), Andrew Van (WUSM), and Amy Mirro (WUSM).  There is a FAQ section for troubleshooting common problems at the end of this document.
+There is a FAQ section for troubleshooting common problems at the end of this document.
 
 **NOTE**: Make sure you are logged in as the `firmmproc` user created by the install script before running FIRMM.
 
