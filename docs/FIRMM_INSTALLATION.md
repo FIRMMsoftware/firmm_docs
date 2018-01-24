@@ -1,6 +1,6 @@
 ![Logo](img/FirmmLogo.png)
 
-Written by Eric Earl (OHSU), Jon Koller (WUSM), Rachel Klein (OHSU), and Andrew Van (WUSM).
+Written by Eric Earl (OHSU), Jon Koller (WUSM), Rachel Klein (OHSU), Andrew Van (WUSM), and Amy Mirro (WUSM).
 
 # Prerequisites for installation
 
