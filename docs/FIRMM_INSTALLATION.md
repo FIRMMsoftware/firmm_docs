@@ -1,6 +1,6 @@
 ![Logo](img/FirmmLogo.png)
 
-Version 2.1 written by Eric Earl (OHSU), Jon Koller (WUSM), Rachel Klein (OHSU), and Andrew Van (WUSM).
+Written by Eric Earl (OHSU), Jon Koller (WUSM), Rachel Klein (OHSU), and Andrew Van (WUSM).
 
 # Prerequisites for installation
 
