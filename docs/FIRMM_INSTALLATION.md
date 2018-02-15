@@ -19,14 +19,14 @@ Point your browser to **[the NITRC page for FIRMM](http://www.nitrc.org/projects
 ```
 cd ~/Downloads
 mkdir firmm
-mv firmm-v2.1.0_offline_install_package.zip firmm/
+mv firmm-v3.0.7_offline_install_package.zip firmm/
 ```
 
 Change to the directory where you moved the .zip file and unzip it. Example:
 
 ```
 cd firmm
-unzip firmm-v2.1.0_offline_install_package.zip
+unzip firmm-v3.0.7_offline_install_package.zip
 ```
 
 **2. `wget` method**
@@ -37,13 +37,13 @@ Make a new directory and use `wget` to grab the install package from there. Exam
 cd ~
 mkdir firmm
 cd firmm
-wget http://firmm.projects.nitrc.org/firmm-v2.1.0_offline_install_package.zip
+wget http://firmm.projects.nitrc.org/firmm-v3.0.7_offline_install_package.zip
 ```
 
 Unzip the file. Example:
 
 ```
-unzip firmm-v2.1.0_offline_install_package.zip
+unzip firmm-v3.0.7_offline_install_package.zip
 ```
 
 # Install

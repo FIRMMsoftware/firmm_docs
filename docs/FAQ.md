@@ -12,7 +12,7 @@ To use FIRMM effectively, DICOMs need to be transferred as fast as possible to t
 - **GE:** Please [email us](mailto:info@firmm.io) for help.
 - **PHILIPS:** Please [email us](mailto:info@firmm.io) for help.
 
-When the FIRMM installation script is run, it makes two Windows batch files on the FIRMM machine. They are called `FIRMM_session_start.bat` and `FIRMM_session_stop.bat`. Getting these to the scanner from the FIRMM host PC will allow SIEMENS users to use DICOM streaming start/stop shortcuts.  Read our shortcuts README for more information.
+When the FIRMM installation script is run, it makes two Windows batch files on the FIRMM machine. They are called `FIRMM_session_start.bat` and `FIRMM_session_stop.bat`. Getting these to the scanner from the FIRMM host PC will allow SIEMENS users to use DICOM streaming start/stop shortcuts.  Read our shortcuts documentation for more information.
 
 ## Does FIRMM work with GE or PHILIPS scanners?
 
@@ -24,7 +24,7 @@ After connecting to the FIRMM host computer via `ssh -X firmm_host` (where `firm
 
 ## How do I change the FD thresholds?
 
-Run `FIRMM -s` on the FIRMM host computer. This will open the settings menu.
+The FD thresholds can be adjusted **before beginning a session* by using the settings tab in the FIRMM GUI. See our Usage documentation for more information for more information.
 
 ## Can I revert to a previously installed version of FIRMM if needed?
 
@@ -39,10 +39,7 @@ Not currently, but we plan to add this capability in an upcoming release.
 ## Where has FIRMM been tested?
 
 As of the creation date of this document, FIRMM has been tested on the following systems/scanners:
+
 - Intel Xeon E5-2640v3 (16GB RAM, HDD) with Siemens Prisma scanner
 - Dell Optiplex with i5 processor (4GB RAM, HDD) with Siemens Skyra scanner
 - Core i7-4790K (16GB RAM, SSD) with Siemens Prisma scanner
-
-## Why does FIRMM occasionally start processing a previous session when I start it?
-
-When FIRMM is launched, it looks for the latest directory in the DICOM streaming directory to process. If FIRMM is launched within 10 minutes of the conclusion of a **previous** scanning session for which DICOMs were sent to FIRMM, and no DICOMs from the **current** session have been sent yet, it will see the **previous** session as "new" and start processing it. To remedy this, close FIRMM and re-launch it **after** some DICOMs have been sent for your current session. These can be any DICOMs, e.g. localizer, AAscout, T1, etc. FIRMM will see the new folder and wait for types of scans it can process (EPI, BOLD, etc.).

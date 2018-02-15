@@ -1,7 +1,5 @@
 ![Logo](img/FirmmLogo.png)
 
-There is a FAQ section for troubleshooting common problems at the end of this document.
-
 **NOTE**: Make sure you are logged in as the `firmmproc` user created by the install script before running FIRMM.
 
 * If you're already using the system where FIRMM was installed, make sure to switch to the `firmmproc` account created during installation.
@@ -53,7 +51,7 @@ Select the appropriate folder, and press the "Run" button to start processing.
 
 **Loading a Previous JSON**
 
-As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v2.1.0/django/complete_JSONs` after FIRMM stops. By clicking the "Load Previous Scan" button you can load any JSON currently in the `complete_JSONs` directory.
+As each scan is processed by FIRMM, information about it is written to a JSON, which is moved to `~/FIRMM/v3.0.7/django/complete_JSONs` after FIRMM stops. By clicking the "Load Previous Scan" button you can load any JSON currently in the `complete_JSONs` directory.
 
 **Note: the JSONs created by FIRMM are stored in the `complete_JSONs` folder indefinitely unless moved by the user. As well as motion information, these JSONs contain information from the DICOM headers such as the Patient ID and Patient Name entered by the scan operator during patient registration. Users are responsible for restricting access to the JSONs created by FIRMM as appropriate.**
 
@@ -83,13 +81,13 @@ This is a screenshot of FIRMM in use.  Following are breakdowns of each plot and
 
 This plot shows the Framewise Displacement (FD) in millimeters as a function of time in the scanner.  FD is a measure of the total movement between a pair of frames including all rotations and translations in 3D space.  The calculation assumes a head radius of 50 mm.
 
-By default, if there are more than five minutes' worth of data, only the last five minutes are displayed for maximum readability. The toggle buttons just above the framewise displacement graph allow you to switch from displaying the last five minutes of data to displaying all data and back.
+By default, if there are more than five minutes' worth of data, only the last five minutes are displayed for maximum readability. The dropdown menus just below the framewise displacement graph allow you to switch from displaying the last five minutes of data to displaying all data and back, as well as apply filtering.
 
 **Summary table**
 
 ![Summary table example](img/summary_table.png)
 
-The summary table provides summary data on each series with information from the DICOM headers and information from FD calculations and thresholding.  These include: the Series Number, Series Description, frame (aka. DICOM) count, Repetition Time (TR), the total time acquired per series, then three entries for the "good" time based on `TR*(frame count < low, middle, and high FD thresholds)`. If the default settings file is used, these thresholds will be 0.2mm, 0.3mm, and 0.4mm, respectively. To customize them, generate a new settings file. Each new series is added to the top of the table and displayed in real time.
+The summary table provides summary data on each series with information from the DICOM headers and information from FD calculations and thresholding.  These include: the Series Number, Series Description, frame (aka. DICOM) count, Repetition Time (TR), the total time acquired per series, then three entries for the "good" time based on `TR*(frame count < low, middle, and high FD thresholds)`. If the default settings are used, these thresholds will be 0.2mm, 0.3mm, and 0.4mm, respectively (see Settings section below on how to customize them). Each new series is added to the top of the table and displayed in real time.
 
 The checkboxes to the left of each series in the summary table allow the user to de-select series that should not be included in plots and predictions.
 
