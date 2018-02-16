@@ -64,5 +64,3 @@ su root
 ```
 
 The installation script will detect whether Docker and Samba are installed and install them if needed. Alternatively, the user can install Docker and Samba first, then run FIRMM_install.sh.
-
-![FIRMM install script](img/basic_install.png)
