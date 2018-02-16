@@ -1,6 +1,6 @@
 ![Logo](img/FirmmLogo.png)
 
-**NOTE**: *FIRMM and ideacmdtool have been tested on both a Siemens Trio and Prisma*
+**NOTE**: *FIRMM and ideacmdtool have been tested on both a Siemens Trio and Prisma.*
 
 # Prerequisites for setup
 

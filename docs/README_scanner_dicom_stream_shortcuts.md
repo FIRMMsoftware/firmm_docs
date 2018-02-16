@@ -4,13 +4,13 @@ The following is a detailed document describing how to setup and use FIRMM's bui
 
 # Creating the shortcut files
 
-Upon installing FIRMM (*read the FIRMM_INSTALLATION.pdf for full installation instructions*) the install script outputs a mostly-ready set of FIRMM shortcuts for use with a SIEMENS scanner.  Review the shortcut files output to the `~/FIRMM/v2.1.0/support_files` folder (*default for your FIRMM user*) for accuracy with regards to your FIRMM username, FIRMM Samba password, and IP address.
+Upon installing FIRMM (*read the FIRMM_INSTALLATION.pdf for full installation instructions*) the install script outputs a mostly-ready set of FIRMM shortcuts for use with a SIEMENS scanner.  Review the shortcut files output to the `~/FIRMM/v3.0.7/support_files` folder (*default for your FIRMM user*) for accuracy with regards to your FIRMM username, FIRMM Samba password, and IP address.
 
 *NOTE: Only SIEMENS scanners using the VE11B and VE11C softwares have been tested to work with these shortcuts.*
 
 # Copying the shortcuts from your FIRMM Linux Computer
 
-The `~/FIRMM/v2.1.0/support_files` folder contains two Windows MS-DOS BAT (a.k.a. batch) files, two icon files and two shortcut files for use on the scanner computer:
+The `~/FIRMM/v3.0.7/support_files` folder contains two Windows MS-DOS BAT (a.k.a. batch) files, two icon files and two shortcut files for use on the scanner computer:
 
 - `FIRMM_session_start.bat`
 - `FIRMM_session_stop.bat`
@@ -47,4 +47,4 @@ Once the shortcuts are made and available on the scanner computer, all that rema
 1. Continue acquisition to the end (*FIRMM will only display an FD trace and time estimates after the first EPI scan*).
 1. **AFTER ACQUISITION IS OVER:** Stop the DICOM stream with your other scanner computer start menu shortcut.
 
-That's it!  Please enjoy the use of these FIRMM shortcuts and provide any feedback or questions to the [FIRMM email account](mailto:firmmsoftware@gmail.com) or the [FIRMM website](http://firmm.us).
+That's it!  Please enjoy the use of these FIRMM shortcuts and provide any feedback or questions to the [FIRMM email account](mailto:info@firmm.io).
