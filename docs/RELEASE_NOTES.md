@@ -1,9 +1,10 @@
 ![Logo](img/FirmmLogo.png)
 
-## v3.0.0 (COMING SOON!)
+## v3.0.7
 * **NEW FEATURE:** Filtered FD: choose between displaying "raw" FD and "filtered" FD to account for artifactually-produced motion
 * **NEW FEATURE:** Ignore specific BOLD series from summary statistics and plot (user-selectable)
-* **NEW FEATURE:** Select which DICOM folder to start processing. This allows one FIRMM computer to be used with two scanners simultaneously, and allows a user to start processing an "old" session.
+* **NEW FEATURE:** Select which DICOM folder to start processing.
+* **NEW FEATURE:** Change settings with the new Settings Tab in the FIRMM GUI.
 
 ## v2.1.3 (2017-10-19)
 * **BUGFIX:** fixed incorrect FD for second frame of each series
