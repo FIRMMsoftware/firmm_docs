@@ -43,3 +43,7 @@ As of the creation date of this document, FIRMM has been tested on the following
 - Intel Xeon E5-2640v3 (16GB RAM, HDD) with Siemens Prisma scanner
 - Dell Optiplex with i5 processor (4GB RAM, HDD) with Siemens Skyra scanner
 - Core i7-4790K (16GB RAM, SSD) with Siemens Prisma scanner
+
+## What is the FIRMM FD filter?
+
+New changes in MRI acquisition procedures bring new opportunities and challenges to BOLD imaging. One of the most drastic changes in acquisition procedures in recent years is the introduction of multiband imaging. However, an unintended consequence of the improved temporal and spatial resolution that accompanies multiband imaging is artifacts in motion estimates from post-acquisition frame alignment procedures, caused primarily by chest motion during respiration. Chest motion, secondary to respiration, changes the magnetic field (B0) and 'tricks' any frame-to-frame alignment procedure used in real-time motion monitoring into correcting a 'head movement' even though no actual head movement existed. In the newest version of FIRMM, an optional band-stop (or notch) filter to remove such respiration-related artefacts from motion estimates is available, thus giving a more accurate real-time representation of motion. For more detail, see our upcoming publication.

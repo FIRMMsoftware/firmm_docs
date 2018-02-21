@@ -81,7 +81,7 @@ This is a screenshot of FIRMM in use.  Following are breakdowns of each plot and
 
 This plot shows the Framewise Displacement (FD) in millimeters as a function of time in the scanner.  FD is a measure of the total movement between a pair of frames including all rotations and translations in 3D space.  The calculation assumes a head radius of 50 mm.
 
-By default, if there are more than five minutes' worth of data, only the last five minutes are displayed for maximum readability. The dropdown menus just below the framewise displacement graph allow you to switch from displaying the last five minutes of data to displaying all data and back, as well as apply filtering.
+By default, if there are more than five minutes' worth of data, only the last five minutes are displayed for maximum readability. The dropdown menus just below the framewise displacement graph allow you to switch from displaying the last five minutes of data to displaying all data and back, as well as apply filtering (for more information on the FIRMM FD filter, [see the FAQ entry](FAQ.md#what-is-the-firmm-fd-filter)).
 
 **Summary table**
 
