@@ -1,5 +1,8 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.0.9 (2018-03-02)
+* **BUGFIX:** settings will now be applied automatically when clicking "Save Profile"
+
 ## v3.0.8 (2018-02-28)
 * **BUGFIX:** fixed error due to spaces or other special characters in "Patient Name" or "Patient ID" DICOM header fields
 
