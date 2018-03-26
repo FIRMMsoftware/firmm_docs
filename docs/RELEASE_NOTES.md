@@ -1,5 +1,8 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.0.10 (2018-03-26)
+* **BUGFIX:** fixed a bug where DICOMs couldn't be written to the incoming DICOM folder because the samba user connecting was different from the local FIRMM user
+
 ## v3.0.9 (2018-03-02)
 * **BUGFIX:** settings will now be applied automatically when clicking "Save Profile"
 
