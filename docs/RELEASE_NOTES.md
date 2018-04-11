@@ -1,5 +1,9 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.0.12 (2018-04-10)
+* **NEW FEATURE:** Multi-echo BOLD: FIRMM will use the first echo volume of each BOLD frame to calculate motion and ignore all other echo volumes
+* **BUGFIX:** Fixed a bug where processed image data was not properly cleaned up. The ~firmmproc/FIRMM/v3*/sessions/ directory should be much smaller now.
+
 ## v3.0.10 (2018-03-26)
 * **BUGFIX:** fixed a bug where DICOMs couldn't be written to the incoming DICOM folder because the samba user connecting was different from the local FIRMM user
 
