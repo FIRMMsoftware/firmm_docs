@@ -16,7 +16,7 @@ When the FIRMM installation script is run, it makes two Windows batch files on t
 
 ## Does FIRMM work with GE or PHILIPS scanners?
 
-FIRMM is designed to work with any scanner as long as DICOM data can be sent to a Samba shared network directory on the FIRMM host computer.
+FIRMM is designed to work with any scanner as long as DICOM data can be sent to a SAMBA shared network directory on the FIRMM host computer.  All of our documentation and DICOM streaming shortcuts, etc., are currently built for ease of use with SIEMENS scanners and SIEMENS' real-time DICOM transfer.  We are still working on the PHILIPS and GE modes for FIRMM.
 
 ## How do I test FIRMM?
 
