@@ -4,7 +4,7 @@
 
 # Prerequisites for setup
 
-* FIRMM version 2.1 or greater installed on a separate Linux computer that is networked to the scanner host computer. If FIRMM is not yet installed, visit [firmm.us](http://firmm.us) for more info.
+* FIRMM version 2.1 or greater installed on a separate Linux computer that is networked to the scanner host computer. If FIRMM is not yet installed, visit [firmm.io](http://firmm.io) for more info.
 * You will need to know the FIRMM computer IP address, referenced below as `[FIRMM_IP]`
 * You will need to know the FIRMM user name and password, set during the installation of FIRMM. The user name is probably `firmmproc`.
 * Select an available drive letter to use for mapping on the scanner host computer. In these instructions we use "Y:".
