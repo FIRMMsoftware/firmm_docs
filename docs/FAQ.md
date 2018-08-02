@@ -51,3 +51,7 @@ New changes in MRI acquisition procedures bring new opportunities and challenges
 ## Why did FIRMM stop receiving DICOMs after the scanner upgrade to VE11C?
 
 FIRMM uses a SAMBA network mount to communicate between the SIEMENS scanner computer and the FIRMM computer. If you had previously used a SAMBA configuration file (located at `/etc/samba/smb.conf`) that had the line `guest ok = yes`, then with VE11C that will not work anymore. The solution is to replace the `guest ok = yes` line with `valid users = username` where `username` should be the FIRMM username. You will then need to have an administrator run the command `sudo smbpasswd -a username` where `username` is that same FIRMM user and then enter the FIRMM user's password when prompted for it. Lastly, update your DICOM streaming shortcut on the scanner with this FIRMM username and password and you should be ready to DICOM stream once again.
+
+## How do I check if the scanner computer can see the FIRMM computer's SAMBA share?
+
+Use `net view IP_ADDRESS` on the scanner computer in a Command Prompt where IP_ADDRESS is your FIRMM computer's IP address on the network. To get a Command Prompt on the scanner computer, log into advanced user mode and run `cmd`. The `net view IP_ADDRESS` command should show you any shared SAMBA network directories on the FIRMM computer. Otherwise, authentication or networking problems are happening.
