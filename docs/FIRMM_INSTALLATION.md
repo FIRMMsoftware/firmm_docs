@@ -4,7 +4,7 @@
 
 Either an Ubuntu or CentOS Linux system capable of running Docker and Samba.
 
-**NOTE**: *FIRMM has been tested with these two operating systems by communicating DICOMs over the same network from a SIEMENS scanner to the FIRMM system using a Samba mount.  Basic Samba configuration and installation are included in FIRMM installation.  Automatic Docker install and configuration only included for Ubuntu 14+ and Redhat 7 systems.*
+**NOTE**: *FIRMM has been tested with these two operating systems by communicating DICOMs over the same network from a SIEMENS scanner to the FIRMM system using a Samba mount.  Basic Samba configuration and installation are included in FIRMM installation.  Automatic Docker install and configuration only included for Ubuntu 14 through Ubuntu 17 and Redhat 7 systems.  If you have a different operating system, simply install Docker separately before installing FIRMM.*
 
 # Download
 
