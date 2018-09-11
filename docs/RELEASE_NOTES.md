@@ -33,4 +33,4 @@
 ## v2.1.1b (2017-06-26)
 * **FEATURE:** display framewise displacement (FD) of BOLD data during acquisition
 * **FEATURE:** display summary table of BOLD series with how much low-motion data has been collected for each series
-* **FEATURE:** predict how much scan time it will take to collect a sqecified amount of low-motion data
+* **FEATURE:** predict how much scan time it will take to collect a specified amount of low-motion data
