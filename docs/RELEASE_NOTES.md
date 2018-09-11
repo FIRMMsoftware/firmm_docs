@@ -1,5 +1,9 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.0.13b (2018-09-11)
+* **BUGFIX:** Fixed a bug where FIRMM would crash if given a BOLD image that had a non-square slice matrix.
+* **BUGFIX:** Ignore CMRR BOLD single-band reference image (SBRef).
+
 ## v3.0.12 (2018-04-10)
 * **NEW FEATURE:** Multi-echo BOLD: FIRMM will use the first echo volume of each BOLD frame to calculate motion and ignore all other echo volumes
 * **BUGFIX:** Fixed a bug where processed image data was not properly cleaned up. The ~firmmproc/FIRMM/v3*/sessions/ directory should be much smaller now.
