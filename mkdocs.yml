@@ -1,4 +1,5 @@
 site_name: 'FIRMM'
+theme: readthedocs
 pages:
 - 'What is FIRMM?': 'index.md'
 - 'Installation': 'FIRMM_INSTALLATION.md'
