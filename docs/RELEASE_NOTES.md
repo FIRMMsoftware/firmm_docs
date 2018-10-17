@@ -1,5 +1,8 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.0.14 (2018-10-17)
+* **MINOR UPDATE:** Added "For investigational use only" note.
+
 ## v3.0.13 (2018-09-25)
 * **BUGFIX:** Fixed a bug where FIRMM would crash if given a BOLD image that had a non-square slice matrix.
 * **BUGFIX:** Ignore CMRR BOLD single-band reference image (SBRef).
