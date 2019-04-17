@@ -50,7 +50,7 @@ Follow these steps every time you run an MR session.
 
 * Press `Ctrl+Esc` to open the Windows start menu, click "Computer" or "Windows Explorer"
 * Make sure the "Y:" drive is mapped to the samba share on the FIRMM computer, \\\\[FIRMM_IP]\\FIRMM_DICOM. If it isn't, follow the instructions above to map it.
-* On the scanner host computer, registrer a new patient.
+* On the scanner host computer, register a new patient.
 * After the patient has been registered:
     - On the scanner computer, press `Ctrl-Esc`, select "Command Prompt" or "Run" and enter `cmd`
     - Enter `ideacmdtool`
