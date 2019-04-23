@@ -12,9 +12,9 @@
 
 # Set default values
 * Edit the firmm_monitor script to set the default values:
-  - REMOTEIP: `[FIRMM_IP]`
-  - REMOTEUSER: FIRMM user name
-  - REMOTEDIR: Directory on FIRMM computer that FIRMM will point to
+    - REMOTEIP: `[FIRMM_IP]`
+    - REMOTEUSER: FIRMM user name
+    - REMOTEDIR: Directory on FIRMM computer that FIRMM will point to
 
 # MR session instructions
 
