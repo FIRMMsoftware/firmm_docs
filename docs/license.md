@@ -1,3 +1,5 @@
+![Logo](img/FirmmLogo.png)
+
 Copyright (c) 2017 Washington University, Oregon Health & Science University
 
 Authored by: Jonathan M. Koller, Eric A. Earl, Rachel L. Klein, Andrew N. Van, Oscar Miranda-Dominguez, Nico U.F. Dosenbach, Damien A. Fair

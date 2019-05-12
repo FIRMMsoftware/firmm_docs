@@ -3,7 +3,7 @@ theme: readthedocs
 pages:
 - What is FIRMM?: index.md
 - Installation: installation.md
-#- Quick Start: quick_start.md
+- Quick Start: quick_start.md
 - Usage: usage.md
 - Built-in DICOM Streaming Shortcuts: siemens_dicom_stream_shortcuts.md
 - Using ideacmdtool with SIEMENS scanners: siemens_ideacmdtool.md
