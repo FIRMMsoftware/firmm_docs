@@ -147,3 +147,7 @@ You can save your current settings with the `Save Profile` button. This will all
 Any saved settings profile can be loaded by selecting the `Load Profile` button.
 
 ![Loading Profile example](img/load.png)
+
+# Motion Data
+
+Framewise displacement and motion numbers for each session are written to a csv file at `/home/firmmproc/FIRMM/outgoing/FIRMM_logs`.

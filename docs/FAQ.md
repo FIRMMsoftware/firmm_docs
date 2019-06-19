@@ -14,6 +14,10 @@ To use FIRMM effectively, DICOMs need to be transferred as fast as possible to t
 
 When the FIRMM installation script is run, it makes two Windows batch files on the FIRMM machine. They are called `FIRMM_session_start.bat` and `FIRMM_session_stop.bat`. Getting these to the scanner from the FIRMM host PC will allow SIEMENS users to use DICOM streaming start/stop shortcuts.  Read our shortcuts documentation for more information.
 
+## Does FIRMM write out motion data?
+
+FIRMM writes out a csv file with FD and motion numbers for each session. It can be found at `/home/firmmproc/FIRMM/outgoing/FIRMM_logs` on the FIRMM machine.
+
 ## Does FIRMM work with GE or PHILIPS scanners?
 
 FIRMM is designed to work with any scanner as long as DICOM data can be sent to a SAMBA shared network directory on the FIRMM host computer.  All of our documentation and DICOM streaming shortcuts, etc., are currently built for ease of use with SIEMENS scanners and SIEMENS' real-time DICOM transfer.  We are still working on the PHILIPS and GE modes for FIRMM.
