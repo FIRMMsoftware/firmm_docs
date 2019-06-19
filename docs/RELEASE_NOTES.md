@@ -1,5 +1,8 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.2 (2019)
+* **NEW FEATURE:** FIRMM is now compatible with GE.
+
 ## v3.0.14 (2018-10-17)
 * **MINOR UPDATE:** Added "For investigational use only" note.
 
