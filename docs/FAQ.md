@@ -16,7 +16,7 @@ When the FIRMM installation script is run, it makes two Windows batch files on t
 
 ## Does FIRMM write out motion data?
 
-FIRMM writes out a csv file with FD and motion numbers for each session. It can be found at `/home/firmmproc/FIRMM/outgoing/FIRMM_logs` on the FIRMM machine.
+FIRMM writes out a csv file with FD and motion numbers for each session. It can be found at `/home/firmmproc/FIRMM/outgoing/FIRMM_logs` on the FIRMM computer.
 
 ## Does FIRMM work with GE or PHILIPS scanners?
 
