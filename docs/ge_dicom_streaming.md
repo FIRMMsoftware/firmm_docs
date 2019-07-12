@@ -24,4 +24,4 @@ Follow these steps every time you run an MR session.
 * Run the localizers for the scan.
 * Open a command window and run firmm_monitor on the scanner host, givin the exam number as the only argument.
 * Keep the monitor running for the duration of the session. When a new series is started it will detect the series type. If it is a multiband functional run it will start the transfer to the FIRMM machine.
-* If a series doesn't finishes running before the next starts, then the new series will not be transferred to the FIRMM computer.
+* If a series doesn't finish running before the next starts, then the new series will not be transferred to the FIRMM computer.
