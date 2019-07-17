@@ -4,18 +4,18 @@
 
 # Prerequisites for setup
 * FIRMM version 3.2b or greater installed on a separate Linux computer that is networked to the scanner host computer. If FIRMM is not yet installed, visit [firmm.io](http://firmm.io) for more info.
-* You will need to know the FIRMM user name and password, set during the installation of FIRMM. The user name is probably `firmmproc`.
-* You will need to know the FIRMM computer IP address, referenced below as `[FIRMM_IP]`
+* You will need to know the FIRMM user name and password, set during the installation of FIRMM. The user name will be `firmmproc` unless FIRMM was installed sudo-less, in which case it will be the installer's user name. It is referenced below as `FIRMM_USER`.
+* You will need to know the FIRMM computer IP address, referenced below as `FIRMM_IP`.
 * ssh keys will need to be set to enable connection from the scanner host to the FIRMM computer without requiring a password, see instructions below.
-* Add firmm_monitor and firmm_rsync.sh to `/usr/g/bin/`
-* Any data that will be used for FIRMM monitoring will have a pulse sequence name of 'research/ABCD/muxepi'
+* Copy firmm_monitor and firmm_rsync.sh from `${INCOMING_DICOM_DIR}/DICOM_stream_shortcuts/` to `/usr/g/bin/`.
+* Any data that will be used for FIRMM monitoring will have a pulse sequence name of 'research/ABCD/muxepi'.
 
 # Set ssh key instructions
 1. Open terminal on the computer running FIRMM.
 2. Type `ssh-keygen -t rsa -b 4096`.
 3. Hit enter three times. This will create the ssh key at the default path and create it without a password.
 4. Open terminal on the scanner host computer.
-4. Type `scp username@firmmcomputer:~/.ssh/id_rsa.pub ~/`
+4. Type `scp FIRMM_USER@FIRMM_IP:~/.ssh/id_rsa.pub ~/`.
 6. Type `mkdir -p ~/.ssh`.
 7. Type `touch ~/.ssh/authorized_keys`.
 8. Type `cat ~/id_rsa.pub >> ~/.ssh/authorized_keys`.
