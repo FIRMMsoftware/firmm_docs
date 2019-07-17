@@ -6,21 +6,26 @@
 * FIRMM version 3.2b or greater installed on a separate Linux computer that is networked to the scanner host computer. If FIRMM is not yet installed, visit [firmm.io](http://firmm.io) for more info.
 * You will need to know the FIRMM user name and password, set during the installation of FIRMM. The user name is probably `firmmproc`.
 * You will need to know the FIRMM computer IP address, referenced below as `[FIRMM_IP]`
-* ssh keys will need to be set to enable connection from the scanner host to the FIRMM computer without requiring a password
-* Both firmm_monitor and firmm_rsync.sh must be on the user sdc's PATH
+* ssh keys will need to be set to enable connection from the scanner host to the FIRMM computer without requiring a password, see instructions below.
+* Add firmm_monitor and firmm_rsync.sh to `/usr/g/bin/`
 * Any data that will be used for FIRMM monitoring will have a pulse sequence name of 'research/ABCD/muxepi'
 
-# Set default values
-* Edit the firmm_monitor script to set the default values:
-    - REMOTEIP: `[FIRMM_IP]`
-    - REMOTEUSER: FIRMM user name
-    - REMOTEDIR: Directory on FIRMM computer that FIRMM will point to
+# Set ssh key instructions
+1. Open terminal on the computer running FIRMM.
+2. Type `ssh-keygen -t rsa -b 4096`.
+3. Hit enter three times. This will create the ssh key at the default path and create it without a password.
+4. Open terminal on the scanner host computer.
+4. Type `scp username@firmmcomputer:~/.ssh/id_rsa.pub ~/`
+6. Type `mkdir -p ~/.ssh`.
+7. Type `touch ~/.ssh/authorized_keys`.
+8. Type `cat ~/id_rsa.pub >> ~/.ssh/authorized_keys`.
+9. Type `rm ~/id_rsa.pub`.
 
 # MR session instructions
 
 Follow these steps every time you run an MR session.
 
-* Start the FIRMM software on the remote Linux computer. When prompted for the directory to look for DICOM data, point it to `REMOTEDIR` from the firmm_monitor script.
+* Start the FIRMM software on the remote Linux computer.
 * Run the localizers for the scan.
 * Open a command window and run firmm_monitor on the scanner host, giving the exam number as the only argument.
 * Keep the monitor running for the duration of the session. When a new series is started it will detect the series type. If it is a multi-band functional run it will start the transfer to the FIRMM machine.
