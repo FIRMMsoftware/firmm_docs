@@ -4,7 +4,7 @@
 
 A Linux system capable of running either Docker or Singularity for FIRMM software and either Samba or rsync for DICOM transfer.
 
-**NOTE**: *FIRMM has been tested with several different flavors of Linux operating systems by communicating DICOMs over the same network from Siemens (tranfer via Samba) and GE (transfer via rsync) scanners.  Basic Samba configuration and installation are included in FIRMM installation, along with DICOM transfer scripts to be copied to the scanner host.  Automatic Docker install and configuration only included for Ubuntu 16 through Ubuntu 18 and Redhat 7 systems.  If you have a different operating system, simply install Docker or Singularity separately before installing FIRMM.*
+**NOTE**: *FIRMM has been tested with several different flavors of Linux operating systems by communicating DICOMs over the same network from Siemens (tranfer via Samba) and GE (transfer via rsync) scanners.  Basic Samba configuration and installation are included in FIRMM installation, along with DICOM transfer scripts to be copied to the scanner host.  Automatic Docker install and configuration only included for Ubuntu 16 through Ubuntu 18 and Redhat 7 systems.  If you have a different operating system, simply install Docker or Singularity and Samba if needed separately before installing FIRMM.*
 
 ### Download FIRMM's installation package from NITRC
 
