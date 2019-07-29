@@ -2,7 +2,7 @@
 
 ## v3.2.5b (2019)
 * **NEW FEATURE:** FIRMM is now compatible with GE! [Click here](https://firmm.readthedocs.io/en/3.2/ge_dicom_streaming/) for more info about DICOM transfer.
-* **NEW FEATURE:** CSV output can be found in /home/firmmproc/FIRMM/v3.2.4b/sessions/FIRMM_logs
+* **NEW FEATURE:** CSV output can be found in /home/firmmproc/FIRMM/v3.2.5b/sessions/FIRMM_logs
 * **NEW FEATURE:** FIRMM is now compatible with [Singularity](https://sylabs.io/singularity/)! The installer will ask if you want to use Docker or Singularity. This has been tested using Singularity 2.6.3 on a Neurodebian system, and on a system running Singularity 3.2.0.
 * **MINOR UPDATE:** [Printable quick start page for Siemens](https://github.com/FIRMMsoftware/firmm_docs/raw/3.2/docs/FIRMM_Operator_Instructions_SIEMENS.pdf). Print it, put it up on the wall in the control room, stop answering questions about how to run FIRMM!
 * **MINOR UPDATE:** The DICOM transfer script for Siemens has been improved to more clearly report if the scanner->FIRMM connection has been made.
