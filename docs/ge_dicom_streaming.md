@@ -8,7 +8,7 @@
 * You will need to know the FIRMM computer IP address, referenced below as `FIRMM_IP`.
 * ssh keys will need to be set to enable connection from the scanner host to the FIRMM computer without requiring a password, see instructions below.
 * Copy firmm_monitor and firmm_rsync.sh from `${INCOMING_DICOM_DIR}/DICOM_stream_shortcuts/` to `/usr/g/bin/`.
-* Any data that will be used for FIRMM monitoring will have a pulse sequence name of 'research/ABCD/muxepi'.
+* Sequences with a pulse sequence description (DICOM tag [0019,109E]) of 'EPI' will be sent to the FIRMM computer via rsync.
 
 # Set ssh key instructions
 1. Open terminal on the computer running FIRMM.
