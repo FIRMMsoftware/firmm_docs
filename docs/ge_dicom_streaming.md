@@ -11,15 +11,12 @@
 * Sequences with a pulse sequence description (DICOM tag [0019,109E]) of 'EPI' will be sent to the FIRMM computer via rsync.
 
 # Set ssh key instructions
-1. Open terminal on the computer running FIRMM.
+1. Open a terminal on the scanner host computer.
 2. Type `ssh-keygen -t rsa -b 4096`.
 3. Hit enter three times. This will create the ssh key at the default path and create it without a password.
-4. Open terminal on the scanner host computer.
-4. Type `scp FIRMM_USER@FIRMM_IP:~/.ssh/id_rsa.pub ~/`.
-6. Type `mkdir -p ~/.ssh`.
-7. Type `touch ~/.ssh/authorized_keys`.
-8. Type `cat ~/id_rsa.pub >> ~/.ssh/authorized_keys`.
-9. Type `rm ~/id_rsa.pub`.
+4. Type `ssh FIRMM_USER@FIRMM_IP mkdir -p .ssh` and enter your FIRMM_USER password.
+5. Type `cat .ssh/id_rsa.pub | ssh FIRMM_USER@FIRMM_IP 'cat >> .ssh/authorized_keys'` and enter your FIRMM_USER password.
+6. You should now be able to log in to (and rsync files to) the FIRMM computer from the scanner host without a password.
 
 # MR session instructions
 
@@ -28,5 +25,5 @@ Follow these steps every time you run an MR session.
 * Start the FIRMM software on the remote Linux computer.
 * Run the localizers for the scan.
 * Open a command window and run firmm_monitor on the scanner host, giving the exam number as the only argument.
-* Keep the monitor running for the duration of the session. When a new series is started it will detect the series type. If it is a multi-band functional run it will start the transfer to the FIRMM machine.
+* Keep the monitor running for the duration of the session. When a new series is started it will detect the series type. If the pulse sequence description ([0019,109E]) is 'EPI' it will start the transfer to the FIRMM machine.
 * If a series doesn't finish running before the next starts, then the new series will not be transferred to the FIRMM computer.
