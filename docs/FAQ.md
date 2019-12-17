@@ -20,7 +20,7 @@ FIRMM writes out a CSV file with FD and motion numbers (with and without respira
 
 ## Does FIRMM work with GE or PHILIPS scanners?
 
-FIRMM is designed to work with any scanner as long as DICOM data can be sent to a SAMBA shared network directory on the FIRMM host computer.  All of our documentation and DICOM streaming shortcuts, etc., are currently built for ease of use with SIEMENS scanners and SIEMENS' real-time DICOM transfer.  We are still working on the PHILIPS and GE modes for FIRMM.
+FIRMM is designed to work with any scanner as long as DICOM data can be sent to a SAMBA shared network directory on the FIRMM host computer.  All of our documentation and DICOM streaming shortcuts, etc., are currently built for ease of use with SIEMENS scanners and SIEMENS' real-time DICOM transfer.  With the release of version 3.2.5 we have added support for GE scanners. We are still working on support for a PHILIPS mode for FIRMM.
 
 ## How do I test FIRMM?
 
