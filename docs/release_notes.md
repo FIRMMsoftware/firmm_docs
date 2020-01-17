@@ -1,5 +1,8 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.2.11 (2020-01-17)
+* **BUGFIX:** The GE transfer script firmm_rsync.sh should now properly handle BOLD runs that are stopped before completion of the run.
+
 ## v3.2.10 (2020-01-14)
 * **MINOR UPDATE:** Better log messages in the terminal.
 * **MINOR UPDATE:** Debug logging information outputs to a log file, which can be located at /home/firmmproc/FIRMM/v3.2.10/code/FIRMM_processing.log.
