@@ -1,5 +1,8 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.2.12 (2020-01-21)
+* **BUGFIX:** The FIRMM GUI would crash if "Filtered FD" was selected, and zero filtered frames were available for a given series. This is now fixed.
+
 ## v3.2.11 (2020-01-17)
 * **BUGFIX:** The GE transfer script firmm_rsync.sh should now properly handle BOLD runs that are stopped before completion of the run.
 
