@@ -3,7 +3,7 @@
 **NOTE**: *This process has been tested on a GE DISCOVERY MR750*
 
 # Prerequisites for setup
-* FIRMM version 3.2b or greater installed on a separate Linux computer that is networked to the scanner host computer. If FIRMM is not yet installed, visit [firmm.io](http://firmm.io) for more info.
+* FIRMM version 3.2 or greater installed on a separate Linux computer that is networked to the scanner host computer. If FIRMM is not yet installed, visit [firmm.io](http://firmm.io) for more info.
 * You will need to know the FIRMM user name and password, set during the installation of FIRMM. The user name will be `firmmproc` unless FIRMM was installed sudo-less, in which case it will be the installer's user name. It is referenced below as `FIRMM_USER`.
 * You will need to know the FIRMM computer IP address, referenced below as `FIRMM_IP`.
 * ssh keys will need to be set to enable connection from the scanner host to the FIRMM computer without requiring a password, see instructions below.
