@@ -1,5 +1,8 @@
 ![Logo](img/FirmmLogo.png)
 
+## v3.2.13 (2020-06-06)
+* **BUGFIX:** FIRMM filtered FD numbers applied incorrect scaling for rotations about L-R axis resulting in a small discrepancy.  Note: the impacts before and after the fix have been evaluated and determined to be inconsequential.
+
 ## v3.2.12 (2020-01-21)
 * **BUGFIX:** The FIRMM GUI would crash if "Filtered FD" was selected, and zero filtered frames were available for a given series. This is now fixed.
 
