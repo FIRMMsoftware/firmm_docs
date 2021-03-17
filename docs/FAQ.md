@@ -22,6 +22,14 @@ FIRMM writes out a CSV file with FD and motion numbers (with and without respira
 
 FIRMM is designed to work with any scanner as long as DICOM data can be sent to a SAMBA shared network directory on the FIRMM host computer.  All of our documentation and DICOM streaming shortcuts, etc., are currently built for ease of use with SIEMENS scanners and SIEMENS' real-time DICOM transfer.  With the release of version 3.2.5 we have added support for GE scanners. We are still working on support for a PHILIPS mode for FIRMM.
 
+## How do I transfer custom settings profiles after upgrading to a new version of FIRMM?
+
+After upgrading to a new version of FIRMM on the same computer (e.g. in the example below from version 3.2.9 to version 3.2.13), you can easily copy custom settings profiles from the older version to the newer version. You can ignore any warnings about overwriting the default.json profile, it has not changed with any version update.
+```
+cd /home/firmmproc/FIRMM/v3.2.9/code/django/profiles
+cp *.json /home/firmmproc/FIRMM/v3.2.13/code/django/profiles/
+```
+
 ## How do I test FIRMM?
 
 After connecting to the FIRMM host computer via `ssh -X firmm_host` (where `firmm_host` is your FIRMM Linux system's name), run `FIRMM -t`. This will start FIRMM on the `firmm_host` computer and copy a few test DICOM series to the incoming DICOM directory specified in the settings. Remember to click **Start FIRMM** in the browser window.  FIRMM will close automatically a little after the test is finished.
