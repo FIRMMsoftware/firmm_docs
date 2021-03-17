@@ -25,10 +25,10 @@ FIRMM is designed to work with any scanner as long as DICOM data can be sent to 
 ## How do I transfer custom settings profiles after upgrading to a new version of FIRMM?
 
 After upgrading to a new version of FIRMM on the same computer (e.g. in the example below from version 3.2.9 to version 3.2.13), you can easily copy custom settings profiles from the older version to the newer version. You can ignore any warnings about overwriting the default.json profile, it has not changed with any version update.
-
-    cd /home/firmmproc/FIRMM/v3.2.9/code/django/profiles
-    cp *.json /home/firmmproc/FIRMM/v3.2.13/code/django/profiles/
-
+```bash
+cd /home/firmmproc/FIRMM/v3.2.9/code/django/profiles
+cp *.json /home/firmmproc/FIRMM/v3.2.13/code/django/profiles/
+```
 
 ## How do I test FIRMM?
 
