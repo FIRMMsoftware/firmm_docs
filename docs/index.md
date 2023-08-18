@@ -1,9 +1,7 @@
 ![Logo](img/FirmmLogo.png)
 
-**For Investigational Use Only**
+FIRMM has evolved and expanded to provide real-time motion monitoring for fMRI, diffusion, and navigated T1/T2 image acquisition.  Turing Medical offers FIRMM on a subscription basis to both clinical and research users with significant discounts available for research use.
 
-The FIRMM software suite provides MRI scanner operators with data quality metrics in real time. Using FIRMM to identify the ideal scan time for each person can reduce total brain MRI scan times and associated costs by 50% or more.
+Previous freeware versions of FIRMM are no longer supported and will not be updated for scanner, sequence, or software compatibility.
 
-FIRMM is written and maintained by our team on the [https://firmm.io/](https://firmm.io/) website.
-
-Need help or technical support for FIRMM?  Email [info@firmm.io](mailto:info@firmm.io).
+To learn more, please visit [turingmedical.com](https://turingmedical.com) or email <sales@turingmedical.com>.  We look forward to connecting and supporting your research efforts.
